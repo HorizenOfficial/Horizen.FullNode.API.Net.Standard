@@ -18,7 +18,7 @@ There are some known limitations with this library which will be improved over t
 Other things that are on the list of improvements list:
 
  - [ ] Introduce the [ZMQ](https://github.com/ZencashOfficial/zen/blob/master/doc/zmq.md) and [AMQP](https://github.com/ZencashOfficial/zen/blob/master/doc/amqp.md) capabilities to allow streaming of data from the zend process for use in explorers for example.
- - [ ] Improve the call stack to avoid the current necessity to direct calls to underlying functions is specific cases
+ - [ ] Improve the call stack to avoid the current necessity to use direct calls to underlying functions in specific cases
  - [ ] Improve the commenting within the application to help describe the logic, for the most part the application is very simple and shouldn't require too much description as it merely abstracts the RPC calls process that is available from the built in help in the zend application itself, nonetheless in the spirit of being a good coder, it will be done... eventually.
  - [ ] Release the library on nuget so it can be used within an application without needing to build it as part of the project.
 
